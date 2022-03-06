@@ -9,14 +9,17 @@ h3 {
     width: 100%;
     color: #fff;
     background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.7),rgba(0,0,0,0.8),rgba(0,0,0,0.8));
-    min-height: 120px;
+    
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-style: none;
 }
 .card-title {
     margin-top: 25px;
-    margin-left: 25px; ;
+    margin-left: 25px;
+    min-width: max-content;
 }
 .price {
     font-size: 24px;
@@ -41,7 +44,7 @@ h3 {
     border-style: none;
 }
 #cardMaster {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .page-title {
     margin-bottom: 30px;

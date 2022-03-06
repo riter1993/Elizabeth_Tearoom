@@ -35,7 +35,8 @@ button {
 }
 #footer {
     position: relative;
-    bottom: 0;
+    bottom: 0px;
+    margin-bottom: auto;
     font-family: 'Lora', serif;
     max-width: 100%;
     background-color: #E60965;
