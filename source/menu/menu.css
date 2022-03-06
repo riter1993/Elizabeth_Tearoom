@@ -1,0 +1,48 @@
+h3 {
+    font-size: 24px;
+    font-family: 'Yeseva One', cursive;
+}
+.backgroundimg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.7),rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    min-height: 120px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: none;
+}
+.card-title {
+    margin-top: 25px;
+    margin-left: 25px; ;
+}
+.price {
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: #F49CC1;
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+}
+.price img {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+#productRow {
+    max-width: max-content;
+}
+
+#productCard {
+    border-radius: 30px;
+    border-style: none;
+}
+#cardMaster {
+    margin-bottom: 30px;
+}
+.page-title {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,67 @@
+h1 {
+    font-size: 56px;
+    font-family: 'Yeseva One', cursive;
+}
+h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+}
+p {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+button {
+    background-color: #E60965;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+#navBar{
+    background-color: #E60965 !important;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#navBarContent {
+    margin-left: 3%;
+}
+#footer {
+    position: relative;
+    bottom: 0;
+    font-family: 'Lora', serif;
+    max-width: 100%;
+    background-color: #E60965;
+    font-size: 16px;
+    color: white;
+}
+#footerRow {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#footerGroup {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-header {
+    font-size: 20px;
+    color: white;
+}
+.newsletter {
+    font-size: 18px;
+}
+#footerGroup img {
+    margin-bottom: 30px;
+    margin-inline-end: 30px;
+}
+#subscribeForm {
+    min-width: 400px;
+    max-width: 50%;
+}
