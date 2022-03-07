@@ -1,3 +1,21 @@
-.DeliveryBtn {
-    background-color: black;
+main{
+    padding: 15px;
+}
+
+#DeliveryMethod{
+   display: flex;
+   justify-content:space-evenly; 
+}
+
+#price{
+    text-align: center;
+}
+
+#CheckoutBtn{
+    display: flex;
+   justify-content:center;
+}
+
+#CheckoutContainer{
+    padding: 20px;
 }
