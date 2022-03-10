@@ -23,6 +23,10 @@ button {
     font-family: 'Lora', serif;
     font-weight: 500;
 }
+#titleVector {
+    width: 35%;
+    max-width: 200px;
+}
 #navBar{
     background-color: #d9918b !important;
     /*background-image: url(/source/images/et-background.png);
