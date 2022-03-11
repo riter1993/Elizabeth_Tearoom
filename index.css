@@ -36,6 +36,9 @@ button {
     margin-bottom: 30px;
     text-align: center;
 }
+#EtLogo {
+    height: 60px;
+}
 #navBarContent {
     margin-left: 3%;
 }
