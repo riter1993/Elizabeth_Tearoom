@@ -1,17 +1,15 @@
 h3 {
-    font-size: 250%;
+    font-size: 300%;
     font-family: 'Lora', serif;
-    color: black;
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
 }
 #titleVector {
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 #cardTitle h3{
     min-width: fit-content;
     color: #fff;
-    border-color: red;
-    border-width: 1px;
-    border-style: dashed;
 }
 #productRow {
     margin-left: auto;
@@ -25,7 +23,10 @@ h3 {
 }
 #cardMaster {
     margin-bottom: 60px;
-
+    opacity: 75%;
+}
+#cardMaster:hover {
+    opacity: 100%;
 }
 .menu-body {
     margin-top: 3%;
@@ -43,8 +44,4 @@ h3 {
     margin-bottom: auto;
     width: fit-content;
     height: fit-content;
-}
-#transOverlay {
-    position: absolute;
-    background-color: black;
 }
