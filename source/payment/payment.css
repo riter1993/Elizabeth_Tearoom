@@ -1,4 +1,6 @@
-
+footer {
+    margin-top: 10vh;
+}
 #product {
     max-width: 50%;
 }
