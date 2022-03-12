@@ -23,17 +23,11 @@ button {
     font-family: 'Lora', serif;
     font-weight: 500;
 }
-#titleVector {
-    width: 40%;
-    max-width: 250px;
-    margin-left: -10px;
-
-}
 #navBar{
     background-color: #d9918b !important;
     font-family: 'Lora', serif;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 7vh;
     text-align: center;
 }
 #EtLogo {

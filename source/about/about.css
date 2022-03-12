@@ -1,3 +1,13 @@
-main {
-    padding: 20px;
+#navBar {
+    margin-bottom: 5vh !important;
+}
+.text-body p {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+#titleVector {
+    width: 90%;
+    max-width: 60vh;
+    margin-bottom: 2vh;
+    margin-left: 3%;
 }
