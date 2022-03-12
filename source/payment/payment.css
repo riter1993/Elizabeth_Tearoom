@@ -277,7 +277,7 @@ p {
     animation-fill-mode: forwards
 }
 
-@keyframes moving {
+/*@keyframes moving {
     0% {
         opacity: 0;
         transform: translateX(-500px)
@@ -288,6 +288,7 @@ p {
         transform: translateX(0px)
     }
 }
+
 
 .box-2 {
     transform: translateY(-500px);
@@ -315,7 +316,7 @@ p {
 
 
 
-@keyframes img-top {
+/*@keyframes img-top {
     0% {
         opacity: 0;
         transform: translateY(-500px)
@@ -325,7 +326,7 @@ p {
         opacity: 1;
         transform: translateY(0px)
     }
-}
+}*/
 
 @media (max-width:768px) {
     .container {
