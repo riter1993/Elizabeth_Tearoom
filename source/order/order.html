@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Yeseva+One&display=swap" rel="stylesheet">
 
-    <title>Your Order</title>
+    <title>Cart</title>
   </head>
 
   <body>
@@ -59,22 +59,22 @@
 
     <main>
       <div class="container-lg">
-        <h1 class="page-title">Cart</h1>
+        <img src="../images/cart.svg" id="titleVector">
         <div class="card mb-3" id="CheckoutContainer">
           <div class="row g-0">
-            <div class="col-md-4">
-              <img src="../images/Victoria-Sponge-Cake 1.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4" id="cartImage">
+              <img src="../images/Victoria-Sponge-Cake 1.png" class="img-fluid" alt="..." id="spongeImage">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Classic Victorian Sponge Cake</h5>
-                <p class="card-text">$20.00</p>
+                <h3>Classic Victorian Sponge Cake</h3>
+                <p>$20.00</p>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label">Quantity</label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="01">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Add note to baker</label>
+                  <label for="exampleFormControlTextarea1" class="form-label">Add Note</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div id="DeliveryMethod">
@@ -84,7 +84,9 @@
               </div>
               <div><p id="price">
                 Subtotal......................................$20.00
+                <br>
                 Tax..................................................$2.34
+                <br>
                 Total.............................................$22.34
               </p>
             </div>
@@ -126,13 +128,7 @@
 <<<<<<< Updated upstream
               <img src="../images/facelogo.png">
               <img src="../images/instalogo.png">
-              <div class="newsletter">
-                Subscribe to our Newsletter!
-                <div class="input-group mb-3" id="subscribeForm">
-                  <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-light" type="button" id="button-addon2">Subscribe</button>
-                </div>
-              </div>
+             
 
 =======
               <img src="../images/facelogo-dark.svg">

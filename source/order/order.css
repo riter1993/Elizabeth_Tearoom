@@ -1,7 +1,20 @@
-main{
-    padding: 15px;
+h3 {
+    font-size: 24px;
+    font-family: 'Lora', serif;
 }
-
+.card-body p {
+    font-size: 20px;
+}
+#titleVector {
+    width: 40%;
+    max-width: 250px;
+    margin-left: -10px;
+    margin-bottom: 3%;
+}
+#spongeImage {
+    object-fit: cover;
+    width: 100%;
+}
 #DeliveryMethod{
    display: flex;
    justify-content:space-evenly; 
@@ -17,5 +30,8 @@ main{
 }
 
 #CheckoutContainer{
-    padding: 20px;
+    padding: 2vh;
+}
+footer {
+    margin-top: 10vh;
 }
