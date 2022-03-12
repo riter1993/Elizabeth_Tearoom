@@ -1,13 +1,27 @@
+
 #navBar {
-    margin-bottom: 5vh !important;
-}
-.text-body p {
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-bottom: 6vh !important;
 }
 #titleVector {
-    width: 90%;
-    max-width: 60vh;
-    margin-bottom: 2vh;
-    margin-left: 3%;
+    width: 80%;
+    max-width: 576px;
+    margin-bottom: 5%;
+}
+#heroCol {
+    max-width: max-content;
+}
+#heroImage {
+    object-fit: cover;
+    object-position: top;
+    width: 100vh;
+    max-height: 90vh;
+    margin-bottom: 8%;
+}
+#introText {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: fit-content;
+}
+footer {
+    margin-top: 10vh;
 }

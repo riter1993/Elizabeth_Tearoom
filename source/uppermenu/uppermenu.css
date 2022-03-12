@@ -26,10 +26,15 @@ h3 {
 }
 #cardMaster {
     margin-bottom: 60px;
-    opacity: 75%;
+    filter:brightness(0.9) saturate(0.9);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
 }
 #cardMaster:hover {
-    opacity: 100%;
+    filter: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+
 }
 .menu-body {
     margin-top: 3%;

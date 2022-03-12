@@ -23,16 +23,19 @@ button {
     font-family: 'Lora', serif;
     font-weight: 500;
 }
+body{
+    background-color: #F7F0E9;
+}
 #navBar{
     background-color: #d9918b !important;
     font-family: 'Lora', serif;
     font-size: 20px;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
     text-align: center;
 }
 #EtLogo {
     height: 60px;
-    margin-left: 8%;
+    margin-left: 2vh;
 }
 #footer {
     position: relative;
@@ -42,19 +45,21 @@ button {
     max-width: 100%;
     background-color: #d9918b;
     font-size: 16px;
-    color: white;
+    color: #333333;
 }
 #footerRow {
     margin-left: 5%;
     margin-right: 5%;
 }
 #footerGroup {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .footer-header {
     font-size: 20px;
-    color: white;
+    color: #333333;
 }
 .newsletter {
     font-size: 18px;
