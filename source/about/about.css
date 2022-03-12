@@ -3,9 +3,9 @@
     margin-bottom: 6vh !important;
 }
 #titleVector {
-    width: 80%;
+    height: 7vh;
     max-width: 576px;
-    margin-bottom: 5%;
+    margin-bottom: 4vh;
 }
 #heroCol {
     max-width: max-content;
