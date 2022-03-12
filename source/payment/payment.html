@@ -20,7 +20,6 @@
     <title>Your Order</title>
   </head>
 
-  <body>
 
       <!--Navigation-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
@@ -40,7 +39,7 @@
                 <a class="nav-link"  id="navItem" href="../uppermenu/uppermenu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  id="navItem" href="../about/about.html">Abou</a>
+                <a class="nav-link"  id="navItem" href="../about/about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link"  id="navItem" href="../payment/payment.html">Cart</a>
@@ -58,21 +57,25 @@
 <!--Main Body-->
 
 <main>
+ <div id="fullBody"> 
+   <img src="../images/cart.svg" id="titleVector">
   <div class="container d-lg-flex">
-    <div class="box-1 bg-light user">
-       
+    <div class="box-1 bg-light user" id="leftCol">
+   
         <div class="box-inner-1 pb-3 mb-3 ">
           <div>
             <img src="../images/Sponge.png" class="card-img" id="productCard" alt="...">
           </div>
           <br>
             <div class="d-flex justify-content-between mb-3 userdetails">
-                <p class="fw-bold">Classic Victorian Sponge Cake</p>
-                <p class="fw-bold"><span class="fas fa-dollar-sign"></span>¥ 2309.00</p>
+                <p class="fw-bold" id="product">Classic Victorian Sponge Cake</p>
+                <p class="fw-bold" id="price"> ¥ 2309.00 </p>
             </div>
             
           
-            <p class="dis my-3 info">A tender vanilla cake, a layer of your favorite berry jam, and a puff of whipped cream make Victoria sponge a British classic. </p>
+            <p>A tender vanilla cake, a layer of your favorite berry jam, and a puff 
+              of whipped cream make Victoria sponge a British classic. 
+            </p>
         </div>
 
         <div class="row">
@@ -115,6 +118,7 @@
       </div>
       
     </div>
+  
    <div class="box-2">
         <div class="box-inner-2">
             <div>
@@ -257,11 +261,7 @@
                             
                         </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+                  </div>
 </main>
 
 
