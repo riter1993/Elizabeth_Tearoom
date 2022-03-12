@@ -7,13 +7,14 @@
     max-height: 1000px;
 }
 .intro-text {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .header-text {
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 #cardGroup {
     margin-top: 5%;
