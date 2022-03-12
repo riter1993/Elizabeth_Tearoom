@@ -326,7 +326,7 @@ p {
         opacity: 1;
         transform: translateY(0px)
     }
-}*/
+}
 
 @media (max-width:768px) {
     .container {
@@ -371,5 +371,5 @@ p {
     ::placeholder {
         font-size: 9px
     }
-}
+}*/
 
