@@ -60,16 +60,34 @@
     <main>
 
         <div class="card">
-            <img src="../images/Victoria-Sponge-Cake 1.png" class="card-img-top"  alt="...">
+            <img src="../images/Sponge.png" class="card-img-top"  alt="...">
             <a href="../menu/menu.html"><img src="../images/bi_arrow-left-square-fill.png" class="back-button" width="50px"></a>
             <div class="card-body">
                 <h2 class="card-title">Classic Victorian<br>Sponge Cake</h2>
                 <h2 id="pinkPrice">$20</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sagittis et condimentum eu aliquet rutrum faucibus habitasse tortor metus. 
-                    Nunc pellentesque imperdiet mi imperdiet vitae habitant vulputate.
+                <p class="card-text">A tender vanilla cake, a layer of your favorite berry jam, and a puff of whipped cream make Victoria sponge a British classic.
                 </p>
-                <a href="../order/order.html"><button id="ViewMenu">Add to Cart
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <label for="zip">Quantity</label>
+                    <input type="text" class="form-control" placeholder="01" required>
+                    <div class="invalid-feedback">
+                      Quantity required.
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-3">
+                    <label for="country">Size</label>
+                    <select class="custom-select d-block w-100"  required>
+                      <option value="">Select Size</option>
+                      <option>6"</option>
+                      <option>12"</option>
+                      <option>18"</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a size.
+                    </div>
+                  </div>
+                <a href="../payment/payment.html"><button id="ViewMenu">Add to Cart
                 </button></a>
             </div>
           </div>
