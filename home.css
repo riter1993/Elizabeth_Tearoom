@@ -1,14 +1,19 @@
 #navBar {
     margin-bottom: 0px;
 }
-#heroImage {
-    object-fit: cover;
-    object-position: 0;
+#heroMain {
+    position: relative;
     width: 100%;
+    height: fit-content;
+}
+#heroImage {
+    position: block;
+    object-fit: cover;
+    width: 100vh;
     height: 100vh;
 }
-.hero-splash {
-    position: absolute;
+#heroSplash {
+    position: absolute !important;
     left: 0;
     right: 0;
     top: 0;
@@ -21,7 +26,7 @@
     height: fit-content;
     max-width: 75%;
 }
-.hero-splash p {
+#heroSplash p {
     color: white;
 }
 #downArrow {
