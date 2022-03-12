@@ -45,15 +45,17 @@
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
 }
-.intro-text {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.header-text {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10%;
-    margin-top: 5%;
+.body-text {
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    max-width: 1000px;
+    justify-content: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 button {
     margin-top: 2vh;
