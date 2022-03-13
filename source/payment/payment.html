@@ -20,8 +20,7 @@
     <title>Your Order</title>
   </head>
 
-  <body>
-
+<body>
       <!--Navigation-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
         <div class="container-fluid">
@@ -40,13 +39,10 @@
                 <a class="nav-link"  id="navItem" href="../uppermenu/uppermenu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  id="navItem" href="../about/about.html">Abou</a>
+                <a class="nav-link"  id="navItem" href="../about/about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link"  id="navItem" href="../payment/payment.html">Cart</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  id="navItem" href="#">Profile</a>
               </li>
             </ul>
           </div>
@@ -58,9 +54,11 @@
 <!--Main Body-->
 
 <main>
+ <div id="fullBody"> 
+   <img src="../images/cart.svg" id="titleVector">
   <div class="container d-lg-flex">
-    <div class="box-1 bg-light user">
-       
+    <div class="box-1 bg-light user" id="leftCol">
+   
         <div class="box-inner-1 pb-3 mb-3 ">
           <div>
             <img src="../images/Sponge.png" class="card-img" id="productCard" alt="...">
@@ -115,6 +113,7 @@
       </div>
       
     </div>
+  
    <div class="box-2">
         <div class="box-inner-2">
             <div>
@@ -245,11 +244,7 @@
                             
                         </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+                  </div>
 </main>
 
 
@@ -284,9 +279,9 @@
       </div>
   
   </div>
-  
+
 </footer>
-    
+</body>   
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   

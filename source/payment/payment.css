@@ -1,4 +1,26 @@
-
+footer {
+    margin-top: 10vh;
+}
+#product {
+    max-width: 50%;
+}
+#price {
+    font-size: 16px;
+    min-width: fit-content;
+}
+#fullBody {
+    position: relative;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titleVector {
+    position: inherit;
+    width: 40%;
+    max-width: 250px;
+    margin-left: -10px;
+    margin-bottom: 3%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -283,7 +305,7 @@ p {
         transform: translateX(-500px)
     }
 
-    100% {
+   0% {
         opacity: 1;
         transform: translateX(0px)
     }
