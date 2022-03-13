@@ -1,9 +1,20 @@
-
+#cardTitle {
+  font-size: 3vh;
+  color: #333333;
+}
+#titlePrice {
+  position: relative;
+}
 #pinkPrice {
-    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2vh;
     font-family: 'Lora', serif;
+    font-weight: 500;
     color: #333333;
-    font-weight: bold;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
 }
 .card {
   justify-content: center;
@@ -11,12 +22,34 @@
     margin-right: auto;
     max-width: 768px;
     border-style: none;
+    background-color: #F7F0E9;
+
+}
+
+#ViewMenu {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.card-text {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 .back-button {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 3vh;
+    left: 3vh;
+    opacity: 80%;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+  }
+  .back-button:hover {
+    opacity: 100%;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
   }
 #navBar {
-  margin-bottom: -1px !important;
+  margin-bottom: 00px !important;
+}
+footer {
+  margin-top: 8vh;
 }
