@@ -61,30 +61,29 @@
    
         <div class="box-inner-1 pb-3 mb-3 ">
           <div>
-            <img src="../images/Sponge.png" class="card-img" id="productCard" alt="...">
+            <img src="../images/Sponge.png" class="card-img" id="productCard" alt="Victoria Sponge Cake">
           </div>
           <br>
             <div class="d-flex justify-content-between mb-3 userdetails">
-                <p class="fw-bold" id="product">Classic Victorian Sponge Cake</p>
-                <p class="fw-bold" id="price"> ¥ 2309.00 </p>
+
+                <p class="fw-bold" id="product">Classic Victoria Sponge Cake</p>
+                <p class="fw-bold" id="price"> ¥2300</p>
             </div>
             
-          
-            <p>A tender vanilla cake, a layer of your favorite berry jam, and a puff 
-              of whipped cream make Victoria sponge a British classic. 
-            </p>
+        <div></div>
+            <p>A tender vanilla cake, a layer of your favorite berry jam, and a puff of whipped cream make Victoria sponge a British classic. </p>
         </div>
 
         <div class="row">
           <div class="col-md-3 mb-3">
-            <label for="zip">Quantity</label>
+            <label for="zip"><p class="dis fw-bold mb-2">Quantity</p></label>
             <input type="text" class="form-control" placeholder="01" required>
             <div class="invalid-feedback">
               Quantity required.
             </div>
           </div>
           <div class="col-md-5 mb-3">
-            <label for="country">Size</label>
+            <label for="country"><p class="dis fw-bold mb-2">Size</p></label>
             <select class="custom-select d-block w-100"  required>
               <option value="">Select Size</option>
               <option>6"</option>
@@ -101,17 +100,20 @@
 
         <div class="d-flex align-items-center justify-content-between mb-2">
           <p>Subtotal</p>
-          <p><span class="fas fa-dollar-sign"></span>¥ 2309.00</p>
+          <p><span class="fas fa-dollar-sign"></span>¥2300</p>
+
       </div>
       <div class="d-flex align-items-center justify-content-between mb-2">
           <div class="d-flex align-items-center">
               <p class="pe-2">Tax <span class="d-inline-flex align-items-center justify-content-between bg-light px-2 couponCode"> <span id="code" class="pe-2"></span> <span class="fas fa-times close"></span> </span> </p>
           </div>
-          <p><span class="fas fa-dollar-sign"></span>¥23.45</p>
+
+          <p><span class="fas fa-dollar-sign"></span>¥25</p>
       </div>
        <div class="d-flex align-items-center justify-content-between mb-2">
           <p class="fw-bold">Total</p>
-          <p class="fw-bold"><span class="fas fa-dollar-sign"><br></span>¥2332.45</p>
+          <p class="fw-bold"><span class="fas fa-dollar-sign"><br></span>¥2325</p>
+
       </div>
       
     </div>
@@ -154,7 +156,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-5 mb-3">
-                    <label for="country">Country</label>
+                    <label for="country"><p class="dis fw-bold mb-2">Country</p></label>
                     <select class="custom-select d-block w-100" id="country" required>
                       <option value="">Choose...</option>
                       <option>United States</option>
@@ -164,7 +166,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <label for="state">State</label>
+                    <label for="state"><p class="dis fw-bold mb-2">State</p></label>
                     <select class="custom-select d-block w-100" id="state" required>
                       <option value="">Choose...</option>
                       <option>California</option>
@@ -174,7 +176,7 @@
                     </div>
                   </div>
                   <div class="col-md-3 mb-3">
-                    <label for="zip">Zip</label>
+                    <label for="zip"><p class="dis fw-bold mb-2">Zip</p></label>
                     <input type="text" class="form-control" id="zip" placeholder="" required>
                     <div class="invalid-feedback">
                       Zip code required.
@@ -185,30 +187,30 @@
                 <div class="my-3 cardname">
                   <div class="custom-control custom-radio">
                   <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                  <label class="custom-control-label" for="credit">Credit card</label>
+                  <label class="custom-control-label" for="credit"><p class="dis fw-bold mb-2">Credit card</p></label>
                 </div>
                 <div class="custom-control custom-radio">
                   <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                  <label class="custom-control-label" for="debit">Debit card</label>
+                  <label class="custom-control-label" for="debit"><p class="dis fw-bold mb-2">Debit card</p></label>
                 </div>
                 <div class="custom-control custom-radio">
                   <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                  <label class="custom-control-label" for="paypal">PayPal</label>
+                  <label class="custom-control-label" for="paypal"><p class="dis fw-bold mb-2">PayPal</p></label>
                 </div>
               </div>
             
 
               <div class="row">
                 <div class="col-md-6 mb-3">
-                <label for="cc-name">Name on card</label>
+                <label for="cc-name"><p class="dis fw-bold mb-2">Name on card</p></label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                <small class="text-muted">Full name as displayed on card</small>
+                
                 <div class="invalid-feedback">
                   Name on card is required
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="cc-number">Credit card number</label>
+                <label for="cc-number"><p class="dis fw-bold mb-2">Credit card number</p></label>
                 <input type="text" class="form-control" id="cc-number" placeholder="" required>
                 <div class="invalid-feedback">
                   Credit card number is required
@@ -217,34 +219,22 @@
             </div>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <label for="cc-expiration">Expiration</label>
+                <label for="cc-expiration"><p class="dis fw-bold mb-2">Expiration</p></label>
                 <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
                 <div class="invalid-feedback">
                   Expiration date required
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="cc-cvv">CVV</label>
+                <label for="cc-cvv"><p class="dis fw-bold mb-2">CVV</p></label>
                 <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
                 <div class="invalid-feedback">
                   Security code required
                 </div>
               </div>
-            </div></div>
-                
-                        
-                        
-                        <!--<select class="form-select" aria-label="Default select example">
-                            <option selected hidden>Japan</option>
-                            <option value="1">India</option>
-                            <option value="2">Australia</option>
-                            <option value="3">Canada</option>
-                        </select>
-                        <div class="d-flex"> <input class="form-control zip" type="text" placeholder="ZIP"> <input class="form-control state" type="text" placeholder="State"> </div>-->
-
-                        
-                        
-                        <hr class="mb-4">
+            </div>
+          </div>               
+                 <hr class="mb-4">
                         <div class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" id="same-address">
                           <label class="custom-control-label" for="same-address"><p class="dis mb-3">Shipping address is the same as my billing address</p></label>
@@ -287,8 +277,8 @@
           </div>
         </div>
         <div class= "col-md" id="footerGroup">
-          <a href="https://www.facebook.com/Elizabeth-Tearoom-103156308296462" target="_blank"><img src="../images/facelogo-dark.svg"></a>
-          <a href="https://www.instagram.com/elizabeth_tearoom/" target="_blank"><img src="../images/instalogo-dark.svg"></a>
+          <a href="https://www.facebook.com/Elizabeth-Tearoom-103156308296462" target="_blank"><img src="../images/facelogo-dark.svg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/elizabeth_tearoom/" target="_blank"><img src="../images/instalogo-dark.svg" alt="Instagram"></a>
         </div>
       </div>
   
