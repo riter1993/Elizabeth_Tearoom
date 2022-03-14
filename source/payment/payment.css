@@ -1,6 +1,9 @@
 footer {
     margin-top: 10vh;
 }
+#productCard {
+    height:100%;
+}
 #product {
     max-width: 50%;
 }
@@ -45,7 +48,7 @@ p {
 
 .box-1 {
     max-width: 450px;
-    padding: 10px 40px;
+    padding: 40px;
     user-select: none
 }
 

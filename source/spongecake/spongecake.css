@@ -1,5 +1,5 @@
 #cardTitle {
-  font-size: 3vh;
+  font-size: 4vh;
   color: #333333;
 }
 #titlePrice {
@@ -9,7 +9,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: 'Lora', serif;
     font-weight: 500;
      color: #333333;
