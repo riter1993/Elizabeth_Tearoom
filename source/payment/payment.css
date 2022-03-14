@@ -39,6 +39,43 @@ p {
     margin: 0%
 }
 
+input[type="text"] {
+    height: 35px;
+}
+
+input[type="radio"]{
+    appearance: none;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #555555;
+	border-radius: 50%;
+	background-clip: content-box;
+	padding: 2px;
+}
+
+input[type="radio"]:checked{
+    background-color: #D9918B;
+}
+
+
+select {
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #cccccc;
+    color: #777777;
+}
+
+select option:hover{
+    background-color: #D9918B;
+}
+
+
+
+
+
+
 .container {
     max-width: 900px;
     margin: 20px auto;
@@ -116,11 +153,11 @@ p {
 .form-select:focus {
     box-shadow: none;
     outline: none;
-    border: 1px solid #7700ff
+    border: 1px solid #D9918B
 }
 
 .border:focus-within {
-    border: 1px solid #7700ff !important
+    border: 1px solid #D9918B !important
 }
 
 .box-2 .card-atm .form-control {
@@ -159,7 +196,7 @@ p {
 }
 
 .box-2 .box-inner-2 .btn.btn-primary {
-    background-color: #7700ff;
+    background-color: #D9918B;
     color: whitesmoke;
     font-size: 14px;
     display: flex;
@@ -171,7 +208,7 @@ p {
 }
 
 .box-2 .box-inner-2 .btn.btn-primary:hover {
-    background-color: #7a34ca
+    background-color: #D9918B
 }
 
 .box-2 .box-inner-2 .btn.btn-primary .fas {
