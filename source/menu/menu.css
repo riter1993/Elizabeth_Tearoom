@@ -18,7 +18,15 @@ h3 {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-style: none;
+    opacity: 80%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
     
+}
+.backgroundimg:hover {
+    opacity: 100%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
 }
 .card-title {
     margin-top: 25px;
